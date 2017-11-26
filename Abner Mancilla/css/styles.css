@@ -1,0 +1,36 @@
+body {
+	background: url("../imagenes/f.jpg") no-repeat fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.borde {
+	border: solid white;
+ 	justify-content: center;
+ 	aling-items: center;
+ 	top: 300px;
+ 	left: 0%;
+	}
+
+.btn {
+	border: solid black;
+	color: black;
+	background-color: white;
+}
+
+.posision {
+	z-index: -1000;
+	position: absolute;
+	left: 0px; 
+	top: -15px;
+}
+
+.letra {
+	font-family: 'Kaushan Script', cursive;
+	color: #99cc33;
+}
+
+.color{
+	color: #080f17;
+}

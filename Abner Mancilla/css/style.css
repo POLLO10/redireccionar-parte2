@@ -1,0 +1,33 @@
+/*SIRVE PARA PONER FONDO DE LA PAGINA*/
+body {
+	background: url("imagenes/fondo.jpg") no-repeat fixed;/*colocar fondo pomiendo la direccion de donde se encuetra, para que no se repita la imagen*/
+	background-size: cover;/* internet explore, win 10, safari, edge*/
+	-webkit-background-size: cover;/* google chrome*/
+	-moz-background-size: cover;/* mozilla firefix*/
+	-o-background-size: cover;/* opera mini*/
+}
+
+.borded{
+	border: 10px inset #F8F807;
+}
+
+.taman{
+	display:block;
+	margin:auto;
+	width: 400px; height: 300px;
+}
+
+.letra {
+	font-family: 'Kaushan Script', cursive;
+	color: #F8F807;
+}
+/*colocar borde*/
+.borde{
+	border: 5px dotted #FFFFFF;
+}
+
+.intro{
+	color: #FFFFFF;
+}
+
+ 
